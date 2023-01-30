@@ -1,6 +1,0 @@
-(test
-  (name test_utils)
-  (preprocess (pps metapp.ppx))
-  (preprocessor_deps "../../metapp/metapp.cmxs")
-  (flags -open Stdcompat)
-  (libraries metapp test_framework stdcompat))
