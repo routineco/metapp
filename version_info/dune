@@ -1,5 +1,4 @@
 (library
   (name metapp_version_info)
   (public_name metapp.version_info)
-  (preprocess (pps metapp.ppx))
   (libraries findlib))
